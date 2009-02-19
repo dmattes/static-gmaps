@@ -1,0 +1,25 @@
+=== 0.0.4 / 2009-02-18 by daniel.mattes@gmx.de
+
+* No Map::default_center, because of auto centering through google when markers.count > 1
+* If no option[:markers] are given, they will be set to []. Otherwise the constant markers array will grow to unlimited.
+* Setting constants like geokit do it.
+  In initializers you can overwrite it like
+  StaticGmaps::default_size = [ 170, 200 ]
+
+=== 0.0.3 / 2008-02-26
+
+* 2 Minor Enhancement:
+  * Now raises exception when there are too many markers.
+  * Now raises exception when the url becomes too long.
+
+=== 0.0.2 / 2008-02-25
+
+* 1 Major Enhancement:
+  * Now supports Markers!
+* 1 Minor Enhancement:
+  * Removed StaticGmaps::Map.to_blob
+
+=== 0.0.1 / 2008-02-25
+
+* 1 major enhancement
+  * Birthday!
