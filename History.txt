@@ -5,6 +5,7 @@
 * Setting constants like geokit do it.
   In initializers you can overwrite it like
   StaticGmaps::default_size = [ 170, 200 ]
+* Now on http://github.com/dmattes/static-gmaps/
 
 === 0.0.3 / 2008-02-26
 

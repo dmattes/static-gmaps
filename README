@@ -1,6 +1,6 @@
 = StaticGmaps
 
-* http://static-gmaps.rubyforge.org/
+* http://github.com/dmattes/static-gmaps/
 
 == DESCRIPTION:
 
