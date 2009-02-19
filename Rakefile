@@ -33,8 +33,8 @@ end
 
 Hoe.new('static-gmaps', StaticGmaps::version) do |p|
   p.rubyforge_name = 'static-gmaps'
-  p.author = 'John Wulff'
-  p.email = 'johnwulff@gmail.com'
+  p.author = 'Daniel Mattes'
+  p.email = 'daniel.mattes@gmx.de'
   p.summary = 'Provides an interface to the Google Static Maps API.'
   p.description = p.paragraphs_of('README.txt', 2..5).join("\n\n")
   p.url = p.paragraphs_of('README.txt', 0).first.split(/\n/)[1..-1]
