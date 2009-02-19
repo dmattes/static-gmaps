@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
   s.files = ["History.txt", "LICENSE.txt", "Manifest.txt", "README.txt", "Rakefile", "lib/static_gmaps.rb", "spec/static_gmaps_spec.rb"]
   s.has_rdoc = true
   s.rdoc_options = ["--main", "README.txt"]
+  s.homepage = 'http://github.com/dmattes/static-gmaps/'
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{static-gmaps}
   s.rubygems_version = %q{1.3.1}
