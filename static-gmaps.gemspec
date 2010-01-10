@@ -8,10 +8,10 @@ Gem::Specification.new do |s|
   s.description = %q{== DESCRIPTION:  Provides an interface to the Google Static Maps API. Original Version from John Wulff, modified by Daniel Mattes
   == FEATURES/PROBLEMS:  * Provides an interface to the Google Static Maps API.}
   s.email = %q{daniel.mattes@gmx.de}
-  s.extra_rdoc_files = ["History.txt", "LICENSE.txt", "Manifest.txt", "README.txt"]
-  s.files = ["History.txt", "LICENSE.txt", "Manifest.txt", "README.txt", "Rakefile", "lib/static_gmaps.rb", "spec/static_gmaps_spec.rb"]
+  s.extra_rdoc_files = ["History.txt", "LICENSE.txt", "Manifest.txt", "readme.txt"]
+  s.files = ["History.txt", "LICENSE.txt", "Manifest.txt", "readme.txt", "Rakefile", "lib/static_gmaps.rb", "spec/static_gmaps_spec.rb"]
   s.has_rdoc = true
-  s.rdoc_options = ["--main", "README.txt"]
+  s.rdoc_options = ["--main", "readme.txt"]
   s.homepage = 'http://github.com/dmattes/static-gmaps/'
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{static-gmaps}
