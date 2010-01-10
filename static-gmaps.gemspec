@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name = %q{static-gmaps}
+  s.name = %q{dmattes-static-gmaps}
   s.version = "0.0.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--main", "readme.txt"]
   s.homepage = 'http://github.com/dmattes/static-gmaps/'
   s.require_paths = ["lib"]
-  s.rubyforge_project = %q{static-gmaps}
+  s.rubyforge_project = %q{dmattes-static-gmaps}
   s.rubygems_version = %q{1.3.1}
   s.summary = %q{Provides an interface to the Google Static Maps API.}
 
